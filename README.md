@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date: 04.10.25
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -20,8 +20,9 @@ ________________________________________
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
-________________________________________<br>
+
+<img width="1919" height="1076" alt="Screenshot 2025-10-04 091020" src="https://github.com/user-attachments/assets/70f410d4-4b55-4791-bbb9-17bd7810b7c6" />
+
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
 CustomerRouter	G0/0	(1st host of LAN-A subnet)	(Subnet mask)	N/A<br>
@@ -93,10 +94,11 @@ ________________________________________<br>
 •	Save: copy running-config startup-config<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
-•	show ip interface brief on CustomerRouter<br>
-•	show ip route<br>
-•	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
-________________________________________<br>
+
+<img width="1919" height="1079" alt="Screenshot 2025-10-04 091548" src="https://github.com/user-attachments/assets/8ebb1b9d-71b9-4d85-95a5-b429847031bf" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-04 092007" src="https://github.com/user-attachments/assets/990260b0-0d70-448b-ab06-0bfa02b404c7" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-04 092046" src="https://github.com/user-attachments/assets/c04b81e2-64ed-4fb4-b702-1021abd5568c" />
+
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
 
